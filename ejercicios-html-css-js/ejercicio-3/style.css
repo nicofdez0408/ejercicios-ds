@@ -1,0 +1,46 @@
+body { 
+    font-family: Arial, sans-serif; 
+    padding: 20px; 
+    max-width: 300px; 
+    margin: auto; 
+}
+
+.campo { 
+    margin-bottom: 15px; 
+}
+
+input { 
+    width: 100%; 
+    padding: 8px; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button { 
+    width: 100%; 
+    padding: 10px; 
+    cursor: pointer; 
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error-msg { 
+    color: red; 
+    font-size: 12px; 
+    display: none; 
+    margin-top: 5px; 
+}
+
+.success-msg { 
+    color: green; 
+    font-weight: bold; 
+    display: none; 
+    margin-top: 15px; 
+}

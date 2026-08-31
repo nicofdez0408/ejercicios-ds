@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio-3</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2>Formulario</h2>
+        <form id="formularioContacto"">
+            <div class="campo">
+                <label>Nombre:</label>
+                <input type="text" id="nombre">
+                <div class="error-msg" id="errorNombre">El nombre no puede estar vacío.</div>
+            </div>
+            <div class="campo">
+                <label>Email:</label>
+                <input type="email" id="email">
+                <div class="error-msg" id="errorEmail">El email no puede estar vacío.</div>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div class="success-msg" id="mensajeExito">¡Formulario enviado con éxito!</div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
